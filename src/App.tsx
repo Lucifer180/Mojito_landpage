@@ -2,7 +2,7 @@ import { ScrollTrigger,SplitText } from 'gsap/all'
 import gsap from 'gsap'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
-import { Box } from '@mui/material'
+import Cocktails from './components/Cocktails'
 gsap.registerPlugin(ScrollTrigger,SplitText)
 function App() {
 
@@ -10,7 +10,8 @@ function App() {
    <main>
     <Navbar />
     <Hero />
-    <Box className="h-screen"></Box>
+    {/* <Box className="h-screen"></Box> */}
+    <Cocktails />
    </main>
   )
 }
